@@ -4,10 +4,10 @@
 </div>
 
 ---
+## Wave Music Player 🎶
 <div align="center">
-<p>Wave is always available at Render. <a href="https://wave-f2co.onrender.com" target="_blank">View demo</a></p>
+<p>Wave is always available on Render <a href="https://wave-f2co.onrender.com" target="_blank">View demo</a></p>
 </div>
-# Wave Music Player 🎶
 
 Wave is a sleek music player web app that will allow you to enjoy my favorite tunes with a delightful user interface anywhere from the world 🎶
 
