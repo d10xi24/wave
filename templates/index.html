@@ -13,6 +13,9 @@
     <title>Music Player</title>
   </head>
   <body>
+    <div id="search-container">
+      <input type="text" id="search" placeholder="Search" oninput="searchSong()" />
+  </div>
     <div class="container">
       <div id="menu-icon"><i class="btn fas fa-bars"></i></div>
       <div class="table-container hidden" id="playlist-container">
@@ -48,9 +51,6 @@
                 <i id="repeat" class="btn fas fa-redo"></i>
                 <i id="next" class="btn fas fa-forward"></i>    
                 </div>        
-                <div id="search-container">
-                  <input type="text" id="search" placeholder="Search" oninput="searchSong()" />
-              </div>
             </div>
           </div>
         </div>

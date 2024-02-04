@@ -432,12 +432,10 @@ function playSong(index) {
     }
 }
 
-// Add this function to your existing script
+
 function togglePlaylist() {
     const playlistContainer = document.getElementById('playlist-container');
     playlistContainer.classList.toggle('hidden');
-  }
-  
-  // Attach the function to the menu icon click event
-  document.getElementById('menu-icon').addEventListener('click', togglePlaylist);
+}
+document.getElementById('menu-icon').addEventListener('click', togglePlaylist);
   
