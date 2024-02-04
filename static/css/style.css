@@ -39,6 +39,33 @@ body {
 .parent-container {
     position: absolute;
 }
+
+#playlist-table {
+    width: 100%;
+}
+  
+#playlist-table  th,
+#playlist td {
+    padding: 10px;
+    text-align: left;
+    color: hsla(155, 94%, 50%, 0.89);
+}
+
+#playlist tr:hover {
+    background-color: rgba(112, 182, 240, 0.2);
+}
+
+    @media screen and (max-width: 1920px) {
+        .music-container{
+            margin-bottom:0cap;
+        }
+        .table-container{
+            height: 76%;
+        }
+        #cover-box{
+            bottom: 0.4rem;
+        }
+    }
     
 #menu-icon {
     position: absolute;
@@ -248,56 +275,7 @@ body {
         transform: translateY(0);
         opacity: 1;
     }
-}
-  
-#playlist-table {
-    width: 100%;
-}
-  
-#playlist-table  th,
-#playlist td {
-    padding: 10px;
-    text-align: left;
-    color: hsla(155, 94%, 50%, 0.89);
-}
-#playlist tr:hover {
-    background-color: rgba(112, 182, 240, 0.2);
-}
-  
-
-
-@media screen and (max-width: 720px){
-        html {
-            font-size: 42.5%;
-        }
-        .table-container {
-            left: 18rem;
-            max-height: 100%
-        }
-        #timer {
-            margin-right: 32.5rem; 
-        }     
-        #progress-container{
-            width: 40%;
-            bottom: 0rem;
-            left: 20rem;
-        }  
-        #control-box {
-            left: 27rem;
-            bottom: 5rem
-        }
-        #menu-icon {
-            left:  0rem;
-        }
-        #cover-box{
-            bottom: 2rem;
-            width:12%;
-            left: 3rem;
-        }
-        #search-container { 
-            margin-bottom: 20.8rem; 
-        }
-    }
+} 
 
     @media screen and (max-width: 1920px) {
         .music-container{
@@ -306,6 +284,7 @@ body {
         .table-container{
             height: 76%;
         }
+        #cover-box{
+            bottom: 0.4rem;
+        }
     }
-    
- 
