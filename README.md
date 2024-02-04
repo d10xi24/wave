@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="400" src="https://github.com/d10xi24/wave/blob/main/static/images/wave.webm"  />
+  <img height="400" width="500" src="https://github.com/d10xi24/wave/wave.gif"  />
 </div>
 
   ---
