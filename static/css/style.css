@@ -223,7 +223,6 @@ body {
     border: none;
     border-radius: 4rem;
     outline: none;
-    margin-left: 0rem;
     margin-left: 3rem;
 }
 
@@ -277,14 +276,71 @@ body {
     }
 } 
 
-    @media screen and (max-width: 1920px) {
-        .music-container{
-            margin-bottom:0cap;
-        }
-        .table-container{
-            height: 76%;
-        }
-        #cover-box{
-            bottom: 0.4rem;
-        }
+
+
+@media screen and (max-width: 720px) {
+    .music-container {
+        padding: 1rem;
+        height: auto;
+        min-height: 90vh;
     }
+
+    .table-container {
+        height: 100%;
+        width: 30%;
+        font-size: 0.7rem;
+        
+    }
+    
+    .special-btn {
+        font-size: 1rem;
+    }
+    
+    #cover-box {
+        position: relative;
+        width: 55%;
+        height: 20%;
+        margin-bottom: 1rem;
+        top: -12rem;
+    }
+
+    #progress-container {
+        width: 50%;
+        left: 6rem;
+        top: 32rem;
+    }
+    
+    #menu-icon {
+        position: fixed;
+        margin: 1rem; 
+        top:  2rem;
+        margin-left: 32rem;
+    }
+    
+    #timer{
+       margin-right: 36rem;
+    }
+    
+    #timer-bar{
+        right:  -5rem;
+        bottom: -0.5rem;
+    }
+    
+    #control-box {
+        left: 12rem;
+        top: 9rem;
+        align-items: center;
+    }
+    
+    #music-info{
+      text-align: center;
+      width: 60%;
+      position: absolute;
+      bottom: 4rem;
+      right: 24rem;
+    }
+    
+    #search-container{
+      display: hidden;
+    }
+}
