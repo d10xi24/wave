@@ -67,7 +67,7 @@ window.addEventListener('DOMContentLoaded', async function () {
             if (songs.length > 0) {
                 document.getElementById('playlist').style.display = 'block';
                 loadSong(songs[songIndex]);
-                getMetadata(songs[songIndex].filename);
+                handleMetadata(songs[songIndex].filename);
             }
         }
         displayPlaylist();
@@ -438,4 +438,3 @@ function togglePlaylist() {
     playlistContainer.classList.toggle('hidden');
 }
 document.getElementById('menu-icon').addEventListener('click', togglePlaylist);
-  
