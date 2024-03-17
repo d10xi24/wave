@@ -1,4 +1,14 @@
 
+### 🚨 Read-Only Repository 🚨
+
+**Important Notice:** This GitHub repository is now read-only. The Wave Music Player project has been migrated to a new repository using Express.js instead of Flask and Python. 
+
+#### Why the Repository is Read-Only:
+- **Migration to Express.js:** The project has been redesigned and implemented using Express.js instead of Flask and Python. The new repository can be found [here](https://github.com/d10xi24/wave-music-player/).
+- **New Release:** The latest release of the Wave Music Player can be accessed [here](https://github.com/d10xi24/wave-music-player/releases/tag/v1.01).
+
+---
+
 <div align="center">
   <img height="400" width="800" src="https://github.com/d10xi24/wave/blob/main/wave.gif"  />
 </div>
